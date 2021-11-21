@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+h1 {
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: silver;
+    margin-bottom: 75px;
+}
+img {
+    width: 200px; height: 150px;
+}
+img:hover {
+   transform: scale(1.1);
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+    justify-content: space-evenly; 
+    justify-items: center;
+}
+
